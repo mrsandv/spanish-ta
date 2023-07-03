@@ -1,0 +1,19 @@
+@import "vars";
+@import "navbar";
+@import "footer";
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  outline: deeppink 1px dashed;
+}

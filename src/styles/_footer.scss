@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $accent;
+  height: 50vh;
+  &__logo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  &__subtitle {
+    width: 90%;
+    font-size: 18px;
+    color: $light;
+  }
+  &__column {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+
+    a {
+      .icon {
+        padding-right: 5px;
+      }
+      text-align: left;
+      display: flex;
+      margin: auto 15px;
+      text-decoration: none;
+      color: $light;
+      &:hover {
+        color: $dark;
+      }
+    }
+  }
+  &__quote {
+    width: 95%;
+    font-size: 14px;
+    color: $light;
+  }
+}
